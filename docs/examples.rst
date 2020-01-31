@@ -68,6 +68,15 @@ The parameters within :code:`createERCellularAutomaton` that should be changed f
        - :code:`fd = 0.8`
        - :code:`steps = 11`
 
+Additional Examples
+===================
+See the following examples:
+
+.. toctree::
+   :maxdepth: 2
+
+   gene-expression-example
+
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
