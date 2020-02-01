@@ -4,7 +4,7 @@ Example: Inducible Genetic Switch
 
 As a demonstration of how the framework can be used to simulate other
 models, the following example will show how another reaction model
-can be implemented within the HeLa cell is shown. The reaction
+can be implemented within the HeLa cell. The reaction
 model is derived from the paper
 `Earnest et al. Challenges of Integrating Stochastic Dynamics and Cryo-Electron Tomograms in Whole-Cell Simulations, J. Phys. Chem. B. 2017, 121: 3871-3881 <https://pubs.acs.org/doi/pdf/10.1021/acs.jpcb.7b00672>`_
 and roughly approximates the galactose inducible genetic circuit 
@@ -14,7 +14,9 @@ The model consists of a switchable gene, transcription of the
 coded mRNA, and translation of a transport protein at the ribosome.
 To allow for switching behavior, the reaction system contains
 transport terms for the galactose molecules which induce the 
-switch from an "off" state to an "on" state.
+switch from an "off" state to an "on" state. The transport
+protein is "captured" at the membrane to catalyze conversion 
+from extracellular inducer to intracellular inducer.
 
 In the following code snippets, we demonstrate how the HeLa
 cell code can be easily modified to model this system within the

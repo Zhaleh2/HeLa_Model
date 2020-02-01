@@ -23,6 +23,7 @@ cell used in the manuscript.
    customization
    simple-gene-expression 
    gene-expression-example
+   yeast-cell-example
 
 * :ref:`genindex`
 * :ref:`modindex`
