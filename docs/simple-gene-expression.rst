@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Advanced Usage
-==============
+Example: Simple Gene Expression
+===============================
 
 While the HeLa cell example demonstrates the utility of the :py:mod:`lmarray`; the Python class contained within (:py:class:`lmarray.cell.Cell`) is a general class for creating sets of input files. It can be thought of as an "input file factory". The user registers functions specifying various model features like the reaction model, diffusion model, geometry model, initial particle counts, etc. with the :py:class:`lmarray.cell.Cell` class and can then use the cell to generate a variety of input files with varied input parameters. It does this using the *names* of the parameters to these function along user specified ranges for these. This will all become clear shortly. 
 

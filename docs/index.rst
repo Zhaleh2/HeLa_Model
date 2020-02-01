@@ -44,7 +44,5 @@ Documentation
 .. toctree::
    :maxdepth: 2
 
-   overview
    examples
-   tutorial
 
