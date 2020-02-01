@@ -11,7 +11,7 @@ While the HeLa cell example demonstrates the utility of the :py:mod:`lmarray`; t
 It is highly recommended that you familiarize yourself with the use of pyLM prior to reading this tutorial. See the `user guide <http://www.scs.illinois.edu/schulten/lm/download/lm23/InstructionGuide.pdf>`_ and `reference guide <http://www.scs.illinois.edu/schulten/lm/documentation/index.html>`_.
 
 Minimal Example
----------------
+~~~~~~~~~~~~~~~
 
 First we import the relevant libraries from :py:mod:`pyLM`:
 
